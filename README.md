@@ -1,2 +1,4 @@
 # My-Landing-Page
-The Odin Project lesson
+An Odin Project lesson
+3.13.25 navbar and hero section nearly complete
+
