@@ -11,10 +11,6 @@ body {
     background: #1f2937;
 }
 
-/*img {
-    max-width: 100%;
-} */
-
 h1 {
     color: #f9faf8;
     font-size: 48px;
@@ -30,8 +26,6 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     height: 100px;
-    /*margin-left: 440px;
-    padding-top: 50px;*/
 }
 
 ul {
@@ -48,7 +42,7 @@ ul {
 .navbar {
     color: #e5e7eb;
     height: 60px;
-    background-color: #32507a;
+    background-color: #1f2937;
 }
 
 .navbar a {
@@ -86,7 +80,6 @@ ul {
 }
 
 .header img {
-   /* max-width: 400px; */
     margin-left: 100px;
 }
 
@@ -126,15 +119,18 @@ ul {
     display: inline-block;
     font-size: 18px;
     border-radius: 8px;
-    width: 20%;
-    margin-top: 25px;
+    width: 150%;
     transition-duration: 0.4s;
 }
+
+.button2:hover {
+    background-color: #2373f3; 
+    color: white;
+ }
 
 .info {
     background-color: #ffffff;
     color: #000000;
-    
 }
 
 .images {
@@ -167,24 +163,27 @@ ul {
 } 
 
 
-.section {
+.calltoaction {
+    background-color: #ffffff;
+    height: 325px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    height: 200px;
 }
 
 .box2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: #3882f6;
-    height: 100px;
-    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 900px;
     border-radius: 10px;
-    padding: 50px;
-} 
+}
+
+.box2 div {
+    padding: 75px;
+}
 
 .footer {
     display: flex;
