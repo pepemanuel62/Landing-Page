@@ -132,44 +132,23 @@ ul {
 }
 
 .info {
-    background-color: #eee;
+    background-color: #ffffff;
     color: #000000;
     
 }
 
-
-/*.box {
-    max-width: 1100px;
-    height: 200px;
-    margin: 0 auto;
-    padding: 0 30px;
-    
-}*/
-
 .images {
+    background-color: #ffffff;
     display: flex;
+    flex-grow: 1;
     justify-content: space-evenly;
-    margin: 0 50px;
-    
+    align-items: start;
+    padding-top: 25px;
+    height: 420px;
 }
 
-.cards {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   gap: 15px;
-   
-}
-
-
-
-
-
-.card {
-    display: flex;
-   
-    background-color: rgb(182, 148, 214);
-    width: 200px;
+.images div {
+    width: 175px;
 }
 
 .quote {
